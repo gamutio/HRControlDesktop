@@ -193,7 +193,7 @@ function getReportes(){
             <div class="pane-sm sidebar">
                 <span class="icon icon-print" style="margin-top: 5%; margin-left: 10%;"><strong>  REPORTES </strong></span>
                 <button class="btn btn-large btn-positive" id="btnRUsers" style="margin-top: 5%; margin-left: 5%;">Reporte de usuarios </button>
-                <button class="btn btn-large btn-positive" id="btnRFich" style="margin-top: 5%; margin-left: 5%;">Reporte de usuarios </button>
+                <button class="btn btn-large btn-positive" id="btnRFich" style="margin-top: 5%; margin-left: 5%;">Reporte de fichaje </button>
                 <div class="form-group">
                 <label>Fecha para el reporte</label>
                 <input type="date" class="form-control" id="fechaFichajeR">

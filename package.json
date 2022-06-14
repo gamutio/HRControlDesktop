@@ -1,0 +1,22 @@
+{
+  "name": "hrcontroldesktop",
+  "version": "1.0.0",
+  "description": "HRControlDesktop",
+  "main": "./main.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "electron": "^10.1.5",
+    "photonkit": "^0.1.2"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . HRControlDesktop --overwrite --asar=true --platform=win32 --arch=x64 --icon=build/HRControl.ico --prune=true --out=release-builds --version-string.CompanyName=\"Guillermo Amutio\" --version-string.FileDescription=CE --version-string.ProductName=\"HR Control Desktop\""
+    
+  },
+  "author": "Guillermo Amutio",
+  "license": "ISC"
+}
